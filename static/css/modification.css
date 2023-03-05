@@ -1,0 +1,18 @@
+.main-body{
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    background-color: #c6ff1a;
+    padding: 3%;
+}
+
+#upper_left {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.Full-screen-view{
+    text-decoration: none;
+    color: brown;
+}

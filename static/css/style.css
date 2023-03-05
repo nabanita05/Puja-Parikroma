@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#list{
+    text-align: center;
+    padding-left: 20px;
+    font-size: large;
+    font-weight: 800;
+}
+
+#Title{
+   background-color: #ff9900;
+}
+
+.nav-data{
+    font-family: 'Cookie', cursive;
+    font-size: 1.8em;
+    padding-right: 5px;
+}
+
+.h1{
+    font-family: 'Bree Serif', serif;
+}
+
+.dialog{
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+    font-size: 2.3em;
+}
+
+.dialog-para{
+    font-family: 'Bree Serif', serif; 
+    font-size: 1.4em;
+}
+
+#pandal{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    color: black;
+    padding-top: 3%;
+}
+
+.pandal-list{
+    padding: 15px;
+}
+
+#Contributer{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    color: black;
+    padding: 3% 25% 3%;
+    background-color: #ff9900;
+}
+
+.input-name{
+    padding: 2%;
+}
+
+.upload-file{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.contributer-form{
+    padding-top: 5%;
+}
+
+.contribution{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 2%;
+}
+
+.contribution:hover{
+    color: brown;
+}
+
+.pandal-link:hover{
+    color: black;
+}
+
+.pandal-link{
+    color:#ff9900;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Location-pandal{
+    color: black;
+    font-size: 1.2em;
+}
+
+
+.Puja-pandal{
+    padding: 2% 5%;
+}
+
+.icon-img{
+    width: 15%;
+    padding-right: 2%;
+}
+
+#Tripura-Durga{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    color: black;
+    padding: 3% 5%;
+    background-color: #ff9900;
+}
+
+#AboutUs{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    color: black;
+    padding: 3% 5%;
+    background-color: #fff;
+}
+
+.Social-Media-logo{
+    color: #ff9900;
+    padding-bottom: 3%;
+}
+
+/*responsive code*/
+@media (max-width: 991px){
+    .logo-img{
+        width: 50%;
+    }
+    #list{
+        text-align: center;
+        padding-left: 20px;
+        font-size: small;
+        font-weight: 800;
+    }
+}
+
+@media(max-width: 700px){
+    #list{
+        text-align: center;
+        padding-left: 20px;
+        font-size: small;
+        font-weight: 800;
+    }
+    .logo-img{
+        width: 50%;
+    }
+    .dialog{
+        font-size: 0.9em;
+    }
+    .dialog-para{
+        font-size: 0.5em;
+    }
+    h2{
+        font-size: 1em;
+    }
+
+    .contribution{
+        padding-bottom: 7%;
+    }
+
+    .Puja-pandal{
+        padding-top: 7%;
+    }
+
+    .wearefeaturing{
+        font-size: 1.4em;
+    }
+
+   #Contributer{
+       padding: 3%;
+   }  
+}
+
+/*Page animation*/
+
+@keyframes slide_left {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slide_top {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slide_right {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes fade_in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

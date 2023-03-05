@@ -6,4 +6,4 @@
 
 ## Deployment
 
-To view my work please [Click Here](https://soumyadipghosh23.github.io/Puja-Parikroma-Agartala/)
+To view my work please [Click Here](https://nabanita05.github.io/Puja-Parikroma/)
